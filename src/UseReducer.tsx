@@ -14,7 +14,7 @@ const UseReducer = () => {
                 case "ADD_PRODUCT":
                     return{
                         ...state,
-                        products:[...state.products,"Novo Produto"]
+                        products:[...state.products,"Produto novo"]
                     }
                 default:
                     return state;
